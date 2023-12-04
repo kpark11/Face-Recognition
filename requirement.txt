@@ -1,0 +1,1 @@
+The dlib==19.18.0 required older version of pip, which I had to install pip==21.3.1 from pip==23.2.1
