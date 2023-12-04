@@ -130,7 +130,7 @@ start_button.pack(pady=10)
 
 # Function to quit the application. This is for quitting the entire program. To quit the webcam stream, hit q.
 def quit_app():
-   root.quit()
+   root.destroy()
    cv2.destroyAllWindows()
 
 # Create a quit button to exit the application.
